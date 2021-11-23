@@ -1,0 +1,94 @@
+/* =============================================
+=            Body Text Sizes            =
+============================================= */
+
+$body-font-size: var(--cds-body-font-size, $fs-base) !default;
+$body-font-weight: var(--cds-body-font-weight, $fw-normal) !default;
+$body-lg-font-size: var(--cds-body-lg-font-size, $fs-md) !default;
+$body-lg-font-weight: var(--cds-body-lg-font-weight, $fw-normal) !default;
+
+/* =====  End of Body Text Sizes  ====== */
+
+/* =============================================
+=            Heading Font Sizes            =
+============================================= */
+
+$h1-font-size: var(--cds-h1-font-size, $h-1) !default;
+$h2-font-size: var(--cds-h2-font-size, $h-2) !default;
+$h3-font-size: var(--cds-h3-font-size, $h-3) !default;
+$h4-font-size: var(--cds-h4-font-size, $h-4) !default;
+$h5-font-size: var(--cds-h5-font-size, $h-5) !default;
+$h6-font-size: var(--cds-h6-font-size, $h-6) !default;
+
+/* =====  End of Heading Font Sizes  ====== */
+
+/* =============================================
+=            Heading Font Weights            =
+============================================= */
+
+$h1-font-weight: var(--cds-h1-font-weight, $fw-bold) !default;
+$h2-font-weight: var(--cds-h2-font-weight, $fw-bold) !default;
+$h3-font-weight: var(--cds-h3-font-weight, $fw-bold) !default;
+$h4-font-weight: var(--cds-h4-font-weight, $fw-bold) !default;
+$h5-font-weight: var(--cds-h5-font-weight, $fw-bold) !default;
+$h6-font-weight: var(--cds-h6-font-weight, $fw-bold) !default;
+
+/* =====  End of Heading Font Weights  ====== */
+
+/* =============================================
+=            Label Font Sizes            =
+============================================= */
+
+$label-sm-font-size: var(--cds-label-sm-font-size, $fs-xs) !default;
+$label-md-font-size: var(--cds-label-md-font-size, $fs-sm) !default;
+$label-lg-font-size: var(--cds-label-lg-font-size, $fs-base) !default;
+
+/* =====  End of Label Font Sizes  ====== */
+
+/* =============================================
+=            Label Font Weights            =
+============================================= */
+
+$label-sm-font-weight: var(--cds-label-sm-font-weight, $fw-medium) !default;
+$label-md-font-weight: var(--cds-label-md-font-weight, $fw-medium) !default;
+$label-lg-font-weight: var(--cds-label-lg-font-weight, $fw-medium) !default;
+
+/* =====  End of Label Font Weights  ====== */
+
+/* =============================================
+=            Other Font Sizes            =
+============================================= */
+
+$display-1-font-size: var(--cds-display-1-font-size, $fs-2xl) !default;
+$display-2-font-size: var(--cds-display-2-font-size, $fs-3xl) !default;
+$lead-font-size: var(--cds-lead-font-size, $fs-base) !default;
+$blockquotes-font-size: var(--cds-blockquotes-font-size, $fs-xl) !default;
+$capitalized-font-size: var(--cds-capitalized-font-size, $fs-base) !default;
+$small-font-size: var(--cds-small-font-size, $fs-sm) !default;
+$tiny-font-size: var(--cds-tiny-font-size, $fs-xs) !default;
+
+/* =====  End of Other Font Sizes  ====== */
+
+/* =============================================
+=            Other Font Weights            =
+============================================= */
+
+$display-1-font-weight: var(--cds-display-1-font-weight, $fw-bold) !default;
+$display-2-font-weight: var(--cds-display-2-font-weight, $fw-normal) !default;
+$lead-font-weight: var(--cds-lead-font-weight, $fw-bold) !default;
+$blockquotes-font-weight: var(--cds-blockquotes-font-weight, $fw-semibold) !default;
+$capitalized-font-weight: var(--cds-capitalized-font-weight, $fw-normal) !default;
+$small-font-weight: var(--cds-small-font-weight, $fw-normal) !default;
+$tiny-font-weight: var(--cds-tiny-font-weight, $fw-semibold) !default;
+
+/* =====  End of Other Font Weights  ====== */
+
+/* =============================================
+=            Letter Spacings            =
+============================================= */
+
+$capitalized-letter-spacing: var(--cds-capitalized-letter-spacing, $ls-base) !default;
+$label-sm-letter-spacing: var(--cds-label-sm-letter-spacing, $ls-label-sm) !default;
+$label-md-letter-spacing: var(--cds-label-md-letter-spacing, $ls-label-md) !default;
+
+/* =====  End of Letter Spacings  ====== */

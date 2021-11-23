@@ -1,0 +1,200 @@
+/* ===================================
+
+  # Variables
+
+=================================== */
+
+/**
+ *
+ * TABLE OF CONTENTS
+ *
+ * COLORS
+ * Brand colors
+ * Neutral colors
+ * Utility colors
+ *
+ * TYPOGRAPHY
+ * Font families
+ * Font weights
+ * Sizes
+ * Heading sizes
+ *
+ * BREAKPOINTS
+ * Breakpoints
+ *
+ * ELEVATIONS
+ * Elevations
+ */
+
+/* =============================================
+=            Colors            =
+============================================= */
+
+/* ----------  Brand Colors  ---------- */
+
+$primary: #3e7bfa;
+$primary-light: #6698fa;
+$primary-dark: #3568d4;
+$primary-outline: $primary;
+
+/* ----------  Neutral Colors  ---------- */
+
+$dark-0: #1c1c28;
+$dark-1: #28293d;
+$dark-2: #555770;
+$dark-3: #8f90a6;
+$dark-4: #c7c9d9;
+$dark-outline: $dark-3;
+$light-0: #e4e4eb;
+$light-1: #ebebf0;
+$light-2: #f2f2f5;
+$light-3: #fafafc;
+$light-4: #fff;
+$light-outline: $light-0;
+
+/* ----------  Utility Colors  ---------- */
+
+$red-0: #e53535;
+$red-1: #ff3b3b;
+$red-2: #ff5c5c;
+$red-3: #ff8080;
+$red-4: #ffe5e5;
+$red-outline: $red-1;
+$green-0: #05a660;
+$green-1: #06c270;
+$green-2: #39d98a;
+$green-3: #57eba1;
+$green-4: #e3fff1;
+$green-outline: $green-1;
+$blue-0: #004fc4;
+$blue-1: #0063f7;
+$blue-2: #5b8def;
+$blue-3: #9dbff9;
+$blue-4: #e5f0ff;
+$blue-outline: $blue-1;
+$yellow-0: #e5b800;
+$yellow-1: #fc0;
+$yellow-2: #fc0;
+$yellow-3: #fded72;
+$yellow-4: #fffee5;
+$yellow-outline: $yellow-1;
+$orange-0: #e57a00;
+$orange-1: #f80;
+$orange-2: #fdac42;
+$orange-3: #fccc75;
+$orange-4: #fff8e5;
+$orange-outline: $orange-1;
+$teal-0: #00b7c4;
+$teal-1: #00cfde;
+$teal-2: #73dfe7;
+$teal-3: #a9eff2;
+$teal-4: #e5ffff;
+$teal-outline: $teal-1;
+$purple-0: #4d0099;
+$purple-1: #60c;
+$purple-2: #ac5dd9;
+$purple-3: #dda5e9;
+$purple-4: #ffe5ff;
+$purple-outline: $purple-1;
+
+/* =====  End of Colors  ====== */
+
+/* =============================================
+=            Typography            =
+============================================= */
+
+/**
+ *
+ * 1) Inter Font - Use for heading and body texts.
+ *    https://fonts.google.com/specimen/Inter
+ *
+ */
+
+/* ----------  Font Families  ---------- */
+
+$inter: "Inter", "Helvetica", "Arial", sans-serif; /* 1 */
+
+/* ----------  Font Sizes  ---------- */
+
+$fs-xs: 0.625rem; // 10px
+$fs-sm: 0.75rem; // 12px
+$fs-base: 0.875rem; // 14px
+$fs-md: 1rem; // 16px
+$fs-lg: 1.125rem; // 18px
+$fs-xl: 1.25rem; // 20px
+$fs-2xl: 3.5rem; // 56px
+$fs-3xl: 4rem; // 64px
+
+/* ----------  Heading Font Sizes  ---------- */
+
+$h-1: 2.5rem; // 40px
+$h-2: 2rem; // 32px
+$h-3: 1.75rem; // 28px
+$h-4: 1.5rem; // 24px
+$h-5: 1.25rem; // 20px
+$h-6: 1rem; // 16px
+
+/* ----------  Font Weight  ---------- */
+
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+
+/* ----------  Letter Spacing  ---------- */
+
+$ls-label-sm: 0.013rem; // 0.2px
+$ls-label-md: 0.013rem; // 0.2px
+$ls-base: 0.125rem; // 2px
+
+/* =====  End of Typography  ====== */
+
+/* =============================================
+=            Breakpoints            =
+============================================= */
+
+$breakpoints: (
+  // 768px
+  md: 48rem,
+  // 1024px
+  lg: 64rem,
+  // 1280px
+  xl: 80rem
+) !default;
+
+/* =====  End of Breakpoints  ====== */
+
+/* =============================================
+=            Elevations            =
+============================================= */
+
+$elevations: ();
+
+/* =====  End of Elevations  ====== */
+
+/* =============================================
+=            Spacings            =
+============================================= */
+
+$spacing: (
+  // 4px
+  3xs: 0.25rem,
+  // 8px
+  2xs: 0.5rem,
+  // 12px
+  xs: 0.75rem,
+  // 16px
+  sm: 1rem,
+  // 24px
+  md: 1.5rem,
+  // 32px
+  lg: 2rem,
+  // 48px
+  xl: 3rem,
+  // 72px
+  2xl: 4.5rem,
+  // 96px
+  3xl: 6rem
+) !default;
+
+/* =====  End of Spacings  ====== */

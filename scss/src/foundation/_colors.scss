@@ -1,0 +1,60 @@
+/* =============================================
+=            Global Text Colors            =
+============================================= */
+
+$body-text-color: var(--cds-body-text-color, $dark-0) !default;
+$body-bg-color: var(--cds-body-bg-color, $light-4) !default;
+
+/* =====  End of Global Text Colors  ====== */
+
+/* =============================================
+=            Button Text Colors            =
+============================================= */
+
+$btn-primary-color: var(--cds-btn-primary-color, $light-4) !default;
+$btn-primary-bg: var(--cds-btn-primary-bg, $primary) !default;
+$btn-primary-hover-bg: var(--cds-btn-primary-hover-bg, $primary-light) !default;
+$btn-primary-press-bg: var(--cds-btn-primary-press-bg, $primary-dark) !default;
+$btn-primary-focus-bg: var(--cds-btn-primary-focus-bg, $primary) !default;
+$btn-primary-focus-outline: var(--cds-btn-primary-focus-outline, $blue-4) !default;
+$btn-positive-color: var(--cds-btn-positive-color, $light-4) !default;
+$btn-positive-bg: var(--cds-btn-positive-bg, $green-1) !default;
+$btn-positive-hover-bg: var(--cds-btn-positive-hover-bg, $green-2) !default;
+$btn-positive-press-bg: var(--cds-btn-positive-press-bg, $green-0) !default;
+$btn-positive-focus-outline: var(--cds-btn-positive-focus-outline, $green-4) !default;
+$btn-destructive-color: var(--cds-btn-destructive-color, $light-4) !default;
+$btn-destructive-bg: var(--cds-btn-destructive-bg, $red-1) !default;
+$btn-destructive-hover-bg: var(--cds-btn-destructive-hover-bg, $red-2) !default;
+$btn-destructive-press-bg: var(--cds-btn-destructive-press-bg, $red-0) !default;
+$btn-destructive-focus-outline: var(--cds-btn-destructive-focus-outline, $red-4) !default;
+$btn-disabled-color: var(--cds-btn-disabled-color, $light-0) !default;
+$btn-disabled-bg: var(--cds-btn-disabled-bg, $dark-4) !default;
+$btn-secondary-color: var(--cds-btn-secondary-color, $dark-0) !default;
+$btn-secondary-bg: var(--cds-btn-secondary-bg, $light-4) !default;
+$btn-secondary-border: var(--cds-btn-secondary-border, $primary) !default;
+
+/* =====  End of Button Text Colors  ====== */
+
+/* =============================================
+=            Forms            =
+============================================= */
+
+$form-color: var(--cds-form-color, $dark-0) !default;
+$form-bg: var(--cds-form-bg, $light-4) !default;
+$form-border: var(--cds-form-border, $dark-2) !default;
+$form-focus-border: var(--cds-form-focus-border, $primary) !default;
+$form-focus-outline: var(--cds-form-focus-outline, $primary-light) !default;
+$form-error-color: var(--cds-form-error-color, $red-1) !default;
+$form-error-border: var(--cds-form-error-border, $red-1) !default;
+
+/* =====  End of Forms  ====== */
+
+/* =============================================
+=            Label Text Colors            =
+============================================= */
+
+$label-sm-color: var(--cds-label-sm-color, $primary) !default;
+$label-md-color: var(--cds-label-md-color, $primary) !default;
+$label-lg-color: var(--cds-label-lg-color, $primary) !default;
+
+/* =====  End of Label Text  ====== */
