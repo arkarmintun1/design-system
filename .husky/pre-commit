@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-cd scss && npx lint-staged
+cd packages/scss && npx lint-staged

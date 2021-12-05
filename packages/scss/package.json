@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "npm run lint --fix",
-    "prepare": "cd .. && husky install",
+    "prepare": "cd ../.. && husky install",
     "build": "node src/scripts/build.js"
   },
   "keywords": [],

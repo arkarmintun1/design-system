@@ -1,0 +1,30 @@
+{
+  "name": "@cds/core",
+  "version": "1.0.0",
+  "description": "The implementation User Interface design with **Atomic Design Methodology**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx lerna run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkarmintun1/design-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arkarmintun1/design-system/issues"
+  },
+  "homepage": "https://github.com/arkarmintun1/design-system#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
