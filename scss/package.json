@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "npm run lint --fix",
-    "prepare": "cd .. && husky install"
+    "prepare": "cd .. && husky install",
+    "build": "node src/scripts/build.js"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
     "prettier": "^2.4.1",
+    "sass": "^1.44.0",
     "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-sass-guidelines": "^9.0.1",
